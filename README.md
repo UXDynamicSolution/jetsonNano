@@ -11,9 +11,13 @@ sudo vi /etc/rc.local
 
 ### Creamos un script bash con el comando anterior:
 #!/bin/bash
+
 sleep 10
+
 sudo /usr/bin/jetson_clocks
+
 sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
+
 
 ### Modificamos los permisos y además le damos permiso de ejecución:
 sudo chmod u+x rc.local
