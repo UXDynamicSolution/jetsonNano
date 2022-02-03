@@ -25,6 +25,23 @@ sudo chmod u+x rc.local
 ### Reiniciamos la Jetson Nano para verificar:
 sudo reboot
 
+# INSTALAR requirements.txt
+
+### Comando para instalar la lista de requisitos especificados ese archivo:
+
+pip3 install -r requirements.txt
+
+### numerar todos los paquetes pip instalados
+
+pip3 list
+
+### Entorno virtual
+entorno virtual lo que hace es generar espacios de trabajo con distintos paquetes y dependencias. Esto principalmente nos evita que haya problemas entre paquetes y que tengamos de una forma más ordenada los distintos proyectos en los que estamos trabajando.
+
+pip install --user pipenv
+
+
+
 
 
 
